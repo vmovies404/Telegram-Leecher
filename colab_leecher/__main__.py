@@ -196,7 +196,7 @@ async def handle_options(client, callback_query):
             ]
         )
         await callback_query.message.edit_text(
-            "<b>◲ Is it a YTDL Link ? 🧐</b>", reply_markup=keyboard
+            "<b>◲ Ithu YOUTUBE  Link ah ? 🧐</b>", reply_markup=keyboard
         )
     elif callback_query.data == "video":
         keyboard = InlineKeyboardMarkup(
@@ -331,7 +331,7 @@ async def handle_options(client, callback_query):
         )
         MSG.status_msg = await colab_bot.send_message(
             chat_id=OWNER,
-            text="#STARTING_TASK\n\n**Starting your task in a few Seconds...🦐**",
+            text="#STARTING_TASK\n\n**Un Task a start panna poren konja neram iru ...🧐**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("Cancel ❌", callback_data="cancel")],
