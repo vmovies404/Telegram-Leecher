@@ -24,9 +24,8 @@ async def start(client, message):
         [
             [
                 InlineKeyboardButton(
-                    "Repository 🦄", url="https://github.com/XronTrix10/Telegram-Leecher"
-                ),
-                InlineKeyboardButton("Support 💝", url="https://t.me/Colab_Leecher"),
+                    "VMOVIES", url="https://vmoviezs.blogspot.com/"
+                )
             ],
         ]
     )
@@ -36,7 +35,7 @@ async def start(client, message):
 @colab_bot.on_message(filters.command("colabxr") & filters.private)
 async def colabxr(client, message):
     global BOT, src_request_msg
-    text = "<b>◲ Send Me DOWNLOAD LINK(s) 🔗»\n◲</b> <i>You can enter multiple links in new lines and I will download each of them 😉 </i>"
+    text = "<b>◲ Send Me DOWNLOAD LINK(s) 🔗»\n◲</b> <i>You can enter multiple links in new lines and I will download each of them (ETHANA LINK VENALUM SEND PANNU ONE BY ONE A DOWNLOAD PANI THARUM) 😉 </i>"
     await message.delete()
     BOT.State.started = True
     if BOT.State.task_going == False:
@@ -430,18 +429,8 @@ async def help_command(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Instructions 📖",
-                        url="https://github.com/XronTrix10/Telegram-Leecher/wiki/INSTRUCTIONS",
-                    ),
-                ],
-                [
-                    InlineKeyboardButton(  # Opens a web URL
-                        "Channel 📣",
-                        url="https://t.me/Colab_Leecher",
-                    ),
-                    InlineKeyboardButton(  # Opens a web URL
-                        "Group 💬",
-                        url="https://t.me/Colab_Leecher_Discuss",
+                        "VMOVIES",
+                        url="https://vmoviezs.blogspot.com/",
                     ),
                 ],
             ]
